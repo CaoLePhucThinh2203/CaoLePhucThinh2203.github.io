@@ -1,52 +1,92 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>My Site</title>
+  <title>My Portfolio - Phuc Thinh</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <style>
-    body,
-    h1 {
-      font-family: "Raleway", sans-serif
-    }
-
-    body,
-    html {
-      height: 100%
-    }
-
-    .bgimg {
-      background-image: url('https://images.unsplash.com/photo-1793189288803-5fbc6572f75e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
-      min-height: 100%;
-      background-position: center;
-      background-size: cover;
-    }
-  </style>
 </head>
-
 <body>
-  <div class="flex flex-row justify-center items-center p-12">
-    <h1 class="text-5xl text-green-300 animate-bounce">Hello, Tailwind CSS</h1>
-  </div>
-
-  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-    <div class="w3-display-topleft w3-padding-large w3-xlarge">
-      Hello, World!!!
+  <!-- banner -->
+  <section class="min-h-screen w-full flex flex-col justify-center items-center bg-[url('https://images.unsplash.com/vector-1775288328811-cdc2b39ee20a?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D')] bg-cover bg-center">
+    <div class="w-full lg:w-[80%] p-12 text-white">
+      <h1 class="text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
+        <span>Hi, my name is <span class="text-yellow-400">Phuc Thinh</span></span>
+        <span class="text-white">I'm a student at <span class ="text-red-700">VN<span class="text-blue-900">UK</span></span>
+      </h1>
+      <a href="#about-me" class="uppercase border-2 border-yellow-400 p-3 hover:bg-yellow-400 hover:text-white transition-colors cursor-pointer">
+        <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-light focus:outline-none focus:ring focus:ring-yellow-300">Know more</span>
+      </a>
     </div>
+  </section>
+  <!-- banner ./ -->
 
-    <div class="w3-display-middle">
-      <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-      <p class="w3-large w3-center">10 days left</p>
+  <!-- about me -->
+  <section id="about-me" class="bg-gradient-to-b from-black to-neutral-800 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
+    <div class="w-full lg:w-[60%] mb-5">
+      <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-12">About Me</h2>
+      <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
+        <div class="flex justify-center items-center text-center col-span-1">
+          <img class="object-cover max-w-xs lg:w-auto" src="https://nguyenhuuquyen.com/imgs/avatar.png" title="My avatar" alt="My avatar" />
+        </div>
+        <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
+          <div class="p-0 text-center lg:p-8 lg:text-start">
+            <p class="pb-3 text-lg font-light mb-5">
+              I love programming and software development. My career
+              objective is to become a Senior Software Engineer.
+            </p>
+            <a href="https://drive.google.com/file/d/1rrqhPdD-moRjUvEqm7f_e6NvI_2hLhV_" target="_blank"
+              class="uppercase border-2 border-white p-3 text-white hover:bg-white hover:text-yellow-400 transition-colors cursor-pointer">
+              <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-normal focus:outline-none focus:ring focus:ring-yellow-300">View My CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- about me ./ -->
 
-  </div>
+  <!-- contact -->
+  <section id="contact" class="bg-gradient-to-b from-neutral-800 to-neutral-600 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
+    <div class="w-full lg:w-[60%] mb-5">
+      <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold mb-6">Contact</h2>
+      <p class="flex flex-col justify-center items-center pt-5 pb-5 text-center">
+        <span class="text-2xl text-yellow-400 mb-3">I LOOK FORWARD TO WORKING WITH YOU</span>
+        <span>I'm glad that my skills might bring values to you.</span>
+      </p>
+    </div>
+    <a href="mailto:caolephucthinh2203@gmail.com?subject=Hi, Thinh I want to connect with you for work !&body=Please describe your work or projects requirements"
+      class="border-2 border-yellow-400 pl-8 pr-8 pt-3 pb-3 bg-yellow-400 text-white hover:bg-white hover:text-yellow-400 transition-colors cursor-pointer">
+      <span class="text-xl uppercase font-light focus:outline-none focus:ring focus:ring-yellow-300">Send An Email Now</span>
+    </a>
+  </section>
+  <!-- contact ./ -->
+
+    <!-- footer -->
+  <footer class="bg-neutral-600 py-6 flex flex-row justify-center items-center">
+    <div class="w-[60%] flex flex-col justify-center items-center">
+        <ul class="flex flex-row">
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+            <a href="https://facebook.com/" target="_blank">
+            <img class="w-10 grayscale hover:grayscale-0" src="/imgs/facebook.svg" />
+            </a>
+        </li>
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+            <a href="https://www.linkedin.com/" target="_blank">
+            <img class="w-10 grayscale hover:grayscale-0" src="/imgs/linkedin.svg" />
+            </a>
+        </li>
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+            <a href="https://github.com/CaoLePhucThinh2203" target="_blank">
+            <img class="w-10 grayscale hover:grayscale-0" src="/imgs/github.svg" />
+            </a>
+        </li>
+        </ul>
+        <hr class="w-1/2 border-gray-500 mt-6"/>
+        <p class="text-base text-gray-500 mt-2">©2026 - Phuc Thinh</p>
+    </div>
+    </footer>
+    <!-- footer ./ -->
+
   <script type="module" src="/src/scripts/application.js"></script>
-</body>
-</html>
-    </div>
-  </div>
 </body>
 </html>
