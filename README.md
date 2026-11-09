@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Đây là kho lưu trữ chứa toàn bộ portfolio của mình. 
+Đây là kho lưu trữ chứa toàn bộ portfolio của mình.  
 Trang web được xây dựng dưới dạng website tĩnh và triển khai tự động qua hệ thống GitHub Pages.
 
 **Trang web:** https://caolephucthinh2203.github.io/
@@ -58,7 +58,7 @@ Trang web được xây dựng dưới dạng website tĩnh và triển khai t�
 
 ## 4. Thông tin liên hệ
 
-Cao Lê Phúc Thịnh
-Viện Nghiên cứu và Đào tạo Việt - Anh (VNUK), Đại học Đà Nẵng
-**Email:** caolephucthinh2203@gmail.com
+Cao Lê Phúc Thịnh  
+Viện Nghiên cứu và Đào tạo Việt - Anh (VNUK), Đại học Đà Nẵng  
+**Email:** caolephucthinh2203@gmail.com  
 **GitHub:** https://github.com/CaoLePhucThinh2203
